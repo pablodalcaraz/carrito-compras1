@@ -1,0 +1,141 @@
+body{
+  padding-top: 70px;
+  
+}
+
+
+.banner-container {
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  display: grid;
+  background-color: #3c3c3c;
+  h1 {
+    font-size: 62px;
+    background: linear-gradient(90deg, #a07227, #b38c3d, #fbf4b4, #81500e);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  p {
+    font-size: 30px;
+    background: linear-gradient(90deg, #a07227, #b38c3d, #fbf4b4, #81500e);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+ 
+}
+.promos{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  @media (max-width: 768px){
+  	display: grid ;
+  }
+  
+}
+
+.cash, .tarjetas{
+  box-shadow: 2px 2px 2px 2px #cdcdcd;
+  border-radius: 16px;
+  margin: 30px;
+  
+}
+
+ul,
+li {
+ 
+  white-space: nowrap;
+}
+
+li {
+  display: inline;
+  color: white;
+}
+li:hover{
+  color: #007bff;
+}
+
+
+
+/* Main container */
+
+.main-container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+/* Slider container */
+.slider-container {
+  position: relative;
+  height: 100%
+}
+
+/* dots carrusel */
+.dots-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dot-container-item {
+  margin: 8px 3px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  color: #007bff;
+}
+.dot-container-item:hover {
+  color: #5ccb5f;
+}
+
+/* Arrows */
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #5ccb5f;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #5ccb5f;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.container-images {
+  border-radius: 16px;
+  box-shadow: 2px 2px 2px 2px #cdcdcd;
+  overflow: hidden;
+  background-color: white;
+  z-index: 1;
+  img{
+    width: 100%;
+    height: 100%;
+    padding: 10px; 
+    
+  }
+  
+}
+
+div.active {
+  background: #ccc;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+

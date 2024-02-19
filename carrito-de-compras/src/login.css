@@ -1,0 +1,105 @@
+.container-principal{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+.container-form{
+    padding: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px #8c8c8c;
+    background-color: white;
+    color: black;
+    input{
+        border-radius: 16px;
+    }
+}
+.readme{
+    text-align: left;
+}
+.form-control{
+    background-color: #5ccb5f;
+}
+
+.form-check-input{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.but{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 16px;
+    p{
+        margin-top: 4px;
+        color: white;
+        margin-top: 7px;
+    }
+}
+.provincia{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-bottom: 20px;
+}
+.departamento{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-bottom: 20px;
+}
+.ciudad{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-bottom: 20px;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    background-color: #f9f6f6;
+    padding-top: 150px;
+    border: none;
+  }
+  .card-body{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px #cdcdcd;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    h1{
+      font-family: sans-serif;
+      color: #5ccb5f;
+      padding: 20px;
+    }
+  }
+
+  .logout{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    background-color: #f9f6f6;
+    padding-top: 150px;
+    border: none;
+  }
+  .logout-body{
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px #cdcdcd;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    h1{
+      font-family: sans-serif;
+      color: #5ccb5f;
+      padding: 20px;
+    }
+  }
+.logout-option{
+    justify-content: space-between 1rem;
+    display: grid;
+}
